@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif !important;
+}
+
+button {
+  font-family: "Rubik", sans-serif !important;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kotak {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+    0 5px 15px 0 rgba(0, 0, 0, 0.08);
+  width: 18em;
+  height: 20em;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+#form-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.kotak > h1 {
+  margin-top: 0;
+}
+
+.label-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+.label-input > label {
+  margin-bottom: 0.2em;
+}
+
+.label-input > input {
+  border-radius: 0.3em;
+  border: 1px solid #cccccc;
+  padding: 0.5em 0.3em;
+}
+
+.forgot {
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  color: #0091ea;
+  padding: 0.15em;
+  border-radius: 0.3em;
+  margin-left: 0.5em;
+}
+
+.submit {
+  display: flex;
+  align-items: center;
+}
+
+.login-btn {
+  cursor: pointer;
+  border: 1px solid #388e3c;
+  background-color: #388e3c;
+  color: white;
+  border-radius: 0.2em;
+  padding: 0.5em 1.6em;
+  transition: box-shadow 0.3s;
+}
+
+.login-btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
